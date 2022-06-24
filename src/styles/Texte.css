@@ -171,3 +171,12 @@
         margin: 50px;
     }
 }
+
+@media screen and (max-width: 460px) {
+    .button {
+        padding: 15px;
+        margin: 40px;
+        width: 215px;
+        font-size: 12px;
+    }
+}
