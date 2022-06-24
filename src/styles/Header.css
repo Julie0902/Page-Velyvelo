@@ -36,3 +36,11 @@
     animation-play-state: running;
     animation-name: rotate;
 }
+
+@media screen and (max-width: 600px) {
+    .logo {
+        left: 25px;
+        width: 40px;
+        height: auto;
+    }
+}
