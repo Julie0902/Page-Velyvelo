@@ -1,0 +1,135 @@
+.block {
+    display: flex;
+    background-color: #1B191A;
+    height: 65vw;
+}
+
+
+.block-texte {
+    
+    color: white;
+    height: 100%;
+    padding: 72px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+
+.block-velo {
+    width: auto;
+    height: 117%;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-size: 38px;
+    padding-bottom: 40px;
+}
+
+.subhead {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 38px;
+}
+
+.texte {
+    width: 578px;
+    height: 88px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: white
+}
+
+.button {
+    background: #EED32E;
+    border-radius: 6px;
+    color: black;
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    width: 286px;
+    padding: 20px;
+    margin: 62px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white;
+    color: #1B191A;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1550px) {
+    .title {
+        font-size: 40px;
+        padding-bottom: 45px;
+    }
+    .subhead {
+        font-size: 28px;
+        padding-bottom: 42px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .title {
+        font-size: 32px;
+        padding-bottom: 35px;
+    }
+    .subhead {
+        font-size: 20px;
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .title {
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    .subhead {
+        font-size: 17px;
+        padding-bottom: 28px;
+    }
+    .texte {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .block-velo {
+        height: 0px;
+    }
+    .block {
+        height: 100%
+    }
+    .block-texte {
+        padding: 72px
+    }
+    .texte {
+        width: 100%;
+        font-size: 14px;
+    }
+    .title {
+        font-size: 38px;
+        padding-bottom: 40px;
+    }
+    .subhead {
+        font-size: 24px;
+        padding-bottom: 38px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .title {
+        font-size: 32px;
+        padding-bottom: 35px;
+    }
+    .subhead {
+        font-size: 20px;
+        padding-bottom: 32px;
+    }
+}

@@ -1,0 +1,38 @@
+.header {
+    background-color: #1B191A;
+    color: white;
+    height: 60px;
+    width: 100%;
+}
+
+@keyframes rotate {
+    45% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    95% {
+        transform: rotate(181deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.logo {
+    width: 63px;
+    height: auto;
+    left: 43px;
+    top: 0px;
+    position: absolute;
+
+    animation: rotate infinite 20s;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rotate;
+}

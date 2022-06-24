@@ -1,0 +1,58 @@
+.img-block {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.img-hr {
+    border: 2px solid #1B191A;
+}
+
+.img-slide {
+    background-color: white;
+    width: 415px;
+    margin: 50px;
+}
+
+
+.velo {
+    position: absolute;
+    right: 0px;
+    top: 60px;
+    width: 65vw;
+}
+
+@media screen and (min-width: 1550px) {
+    .velo {
+        width: 61vw
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .velo {
+        width: 62vw;
+    }
+    .img-images {
+        padding: 30px;
+        width: 400px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:1391px) {
+    .velo {
+       width: 60vw;
+    }
+    .img-images {
+        padding: 30px;
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .velo {
+        width: 0px
+    }
+}
