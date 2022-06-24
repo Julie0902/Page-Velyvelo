@@ -4,7 +4,7 @@ import Info from './interactions/info.js'
 import velo from '../assets/velo.png'
 
 function Texte() {
-    const Title = <div className='title'>Le Q’be Gen4 : Bien plus loin qu’un simple un vélo utilitaire</div>;
+    const Title = <div className='title'>Le Q’be Gen4 : Bien plus loin qu’un simple un vélo utilitaire.</div>;
     const Soustitre = <div className='subhead'>Plus d’innovations - plus de confort – Pas de compromis</div>
 
     return <div className='block'>
