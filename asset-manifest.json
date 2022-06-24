@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Page-Velyvelo/static/css/main.e6ec9b62.css",
+    "main.js": "/Page-Velyvelo/static/js/main.8c5ee1b8.js",
+    "static/media/velo.png": "/Page-Velyvelo/static/media/velo.8af22aac82a827c18ecf.png",
+    "static/media/velo2.png": "/Page-Velyvelo/static/media/velo2.a4c6853ee4b57858c9c8.png",
+    "static/media/velo1.png": "/Page-Velyvelo/static/media/velo1.8d654122f0d8883c2f47.png",
+    "static/media/velo3.png": "/Page-Velyvelo/static/media/velo3.79c9adab1b6c4b3edf03.png",
+    "static/media/logo.webp": "/Page-Velyvelo/static/media/logo.eec4a6a6df1f6cc17c5a.webp",
+    "static/media/logo2.PNG": "/Page-Velyvelo/static/media/logo2.d7971ce82b55eb69119c.PNG",
+    "static/media/logo1.PNG": "/Page-Velyvelo/static/media/logo1.0f94d607050f7802b444.PNG",
+    "static/media/logo3.PNG": "/Page-Velyvelo/static/media/logo3.27e4a83012ae9d88a090.PNG",
+    "index.html": "/Page-Velyvelo/index.html",
+    "main.e6ec9b62.css.map": "/Page-Velyvelo/static/css/main.e6ec9b62.css.map",
+    "main.8c5ee1b8.js.map": "/Page-Velyvelo/static/js/main.8c5ee1b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6ec9b62.css",
+    "static/js/main.8c5ee1b8.js"
+  ]
+}
