@@ -34,7 +34,6 @@
 
 .texte {
     width: 578px;
-    height: 88px;
 
     font-family: 'Inter';
     font-weight: 400;
@@ -99,6 +98,14 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width: 1275px) {
+    .block-texte {
+        padding: 62px;
+    }
+
+}
+
 @media screen and (max-width: 1200px) {
     .block-velo {
         height: 0px;
@@ -124,12 +131,43 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .block-texte {
+        width: 100%;
+        padding: 45px
+    }
     .title {
         font-size: 32px;
         padding-bottom: 35px;
+        width: 100%
     }
     .subhead {
         font-size: 20px;
         padding-bottom: 32px;
+        width: 100%
+    }
+    .texte {
+        width: 70%
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .block-texte {
+        padding: 28px;
+        width: 100%;
+    }
+    .title {
+        font-size: 25px;
+        width: 100%;
+    }
+    .subhead {
+        font-size: 20px;
+        width: 100%;
+    }
+    .texte {
+        width: 70%;
+        font-size: 12px;
+    }
+    .button {
+        margin: 50px;
     }
 }

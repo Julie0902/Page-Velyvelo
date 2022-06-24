@@ -40,19 +40,9 @@
     }
 }
 
-@media screen and (max-width:1391px) {
-    .velo {
-       width: 60vw;
-    }
-    .img-images {
-        padding: 30px;
+@media screen and (max-width: 600px) {
+    .img-slide {
         width: 300px;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .velo {
-        width: 0px
+        margin: 20px
     }
 }

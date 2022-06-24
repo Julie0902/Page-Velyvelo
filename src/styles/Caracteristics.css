@@ -65,12 +65,32 @@
     }
 }
 
+@media screen and (max-width: 1275px) {
+    .car-block {
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .car-texte {
         font-size: 14px;
+        width: 80%
     }
     .car-block {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .car-titre {
+        width: 100px
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .car-block-texte {
+        width: 80%
+    }
+    .car-texte {
+        font-size: 12px;
     }
 }
