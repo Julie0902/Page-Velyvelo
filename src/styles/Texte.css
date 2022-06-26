@@ -23,17 +23,19 @@
     font-family: 'Montserrat';
     font-size: 38px;
     padding-bottom: 40px;
+    width: 100%
 }
 
 .subhead {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 24px;
-    padding-bottom: 38px;
+    padding-bottom: 35px;
+    width: 100%
 }
 
 .texte {
-    width: 578px;
+    width: 80%;
 
     font-family: 'Inter';
     font-weight: 400;
@@ -63,60 +65,55 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 1700px) {
-    .block-texte {
-        padding: 82px;
-    }
-    .subhead {
-        font-size: 32px;
-        padding-bottom: 45px;
-    }
-    .texte {
-        font-size: 16px;
-    }
-}
-
-@media screen and (min-width: 1550px) {
-    .title {
-        font-size: 40px;
-        padding-bottom: 45px;
-    }
-    .subhead {
-        font-size: 28px;
-        padding-bottom: 42px;
-    }
-}
-
-@media screen and (max-width: 1450px) {
-    .title {
-        font-size: 32px;
-        padding-bottom: 35px;
-    }
-    .subhead {
-        font-size: 20px;
-        padding-bottom: 32px;
-    }
-}
-
-@media screen and (max-width: 1350px) {
-    .title {
-        font-size: 25px;
-        padding-bottom: 30px;
-    }
-    .subhead {
-        font-size: 17px;
-        padding-bottom: 28px;
-    }
-    .texte {
+@media screen and (max-width: 460px) {
+    .button {
+        padding: 15px;
+        margin: 40px;
+        width: 215px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 600px) {
     .block-texte {
-        padding: 62px;
+        padding: 28px;
+        width: 100%;
     }
+    .title {
+        font-size: 25px;
+        width: 100%;
+    }
+    .subhead {
+        font-size: 20px;
+        width: 100%;
+    }
+    .texte {
+        width: 70%;
+        font-size: 12px;
+    }
+    .button {
+        margin: 50px;
+    }
+}
 
+@media screen and (max-width: 1000px) {
+    .block-texte {
+        width: 100%;
+        padding: 45px
+    }
+    .title {
+        font-size: 32px;
+        padding-bottom: 35px;
+        width: 100%
+    }
+    .subhead {
+        font-size: 20px;
+        padding-bottom: 32px;
+        width: 100%
+    }
+    .texte {
+        width: 70%
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -143,53 +140,105 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1275px) {
     .block-texte {
-        width: 100%;
-        padding: 45px
+        padding: 62px;
     }
+
+}
+
+@media screen and (max-width: 1350px) {
+    .title {
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    .subhead {
+        font-size: 17px;
+        padding-bottom: 28px;
+    }
+    .texte {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1450px) {
     .title {
         font-size: 32px;
         padding-bottom: 35px;
-        width: 100%
     }
     .subhead {
         font-size: 20px;
         padding-bottom: 32px;
-        width: 100%
-    }
-    .texte {
-        width: 70%
     }
 }
 
-@media screen and (max-width: 600px) {
-    .block-texte {
-        padding: 28px;
-        width: 100%;
-    }
+@media screen and (min-width: 1550px) {
     .title {
-        font-size: 25px;
-        width: 100%;
+        font-size: 40px;
+        padding-bottom: 40px;
     }
     .subhead {
-        font-size: 20px;
-        width: 100%;
-    }
-    .texte {
-        width: 70%;
-        font-size: 12px;
-    }
-    .button {
-        margin: 50px;
+        font-size: 28px;
+        padding-bottom: 38px;
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (min-width: 1700px) {
+    .block-texte {
+        padding: 82px;
+        padding-right: 0px;
+    }
+    .subhead {
+        font-size: 32px;
+        padding-bottom: 45px;
+    }
+    .texte {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 19px;
+    }
     .button {
-        padding: 15px;
-        margin: 40px;
-        width: 215px;
-        font-size: 12px;
+        font-size: 16px;
     }
 }
+
+@media screen and (min-width: 1800px) {
+    .title {
+        font-size: 40px;
+        padding-bottom: 50px;
+    }
+    .subhead {
+        font-size: 35px;
+        padding-bottom: 45px;
+    }
+    .button {
+        padding: 25px;
+        margin: 72px
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .block-texte {
+        padding: 105px;
+        padding-right: 0px;
+    }
+    .title {
+        font-size: 42px;
+        padding-bottom: 58px;
+    }
+    .subhead {
+        font-size: 38px;
+        padding-bottom: 52px;
+    }
+}
+
+
+
+
+
+
+
+
+

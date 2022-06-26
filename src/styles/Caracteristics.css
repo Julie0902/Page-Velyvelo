@@ -1,6 +1,6 @@
 .car-block {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .car-container {
@@ -46,6 +46,23 @@
     padding-left: 100px;
     color: white;
     width: 450px;
+}
+
+@media screen and (min-width: 1800px) {
+    .car-block {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .car-block {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .car-titre {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 1450px) {
