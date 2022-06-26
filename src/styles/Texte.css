@@ -232,6 +232,9 @@
         font-size: 38px;
         padding-bottom: 52px;
     }
+    .texte {
+        line-height: 22px;
+    }
 }
 
 
