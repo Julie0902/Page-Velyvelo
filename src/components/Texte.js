@@ -12,7 +12,7 @@ function Texte() {
             {Title}
             {Soustitre}
             <div className='texte'>
-                Test. Inspiré de notre connaissance du marché, cette nouvelle génération se démarque de tous les vélos qui peuvent se faire ailleurs.
+                Inspiré de notre connaissance du marché, cette nouvelle génération se démarque de tous les vélos qui peuvent se faire ailleurs.
                 <p>Conçu pour améliorer l’expérience livraison, ce vélo annonce une nouvelle génération de vélos à assistance électrique utilitaire qui conjugue design et performance</p>
             </div>
 
